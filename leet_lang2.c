@@ -5,7 +5,7 @@ int main(void){
     // 自分の得意な言語で
     // Let's チャレンジ！！
 
-    char str[1000];
+    char str[100];
     char words[100];
     fgets(str, sizeof(str), stdin);
     sscanf(str, "%s", words);
